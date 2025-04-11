@@ -1,0 +1,22 @@
+{
+  "categories": [
+    {
+      "name": "utils",
+      "blocks": [
+        {
+          "name": "should-never-happen",
+          "directory": "src/utils",
+          "category": "utils",
+          "tests": true,
+          "subdirectory": false,
+          "list": true,
+          "files": ["should-never-happen.ts", "should-never-happen.test.ts"],
+          "localDependencies": [],
+          "_imports_": {},
+          "dependencies": [],
+          "devDependencies": []
+        }
+      ]
+    }
+  ]
+}
