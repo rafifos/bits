@@ -1,4 +1,15 @@
 /**
+ * A utility function intended for debugging purposes.
+ * When invoked, it triggers a breakpoint in the debugger.
+ *
+ * Use this function to pause execution and inspect the current state
+ * of the application during development.
+ */
+function debugFn(): void {
+  debugger;
+}
+
+/**
  * A utility function for handling code paths that should never be reached.
  * Improves code readability and developer experience by providing clear error messaging
  * and automatically triggering the debugger in non-production environments.
@@ -29,7 +40,7 @@ function shouldNeverHappen(msg?: string, ...args: unknown[]): never {
   console.error(errorMsg, ...args);
 
   if (process.env.NODE_ENV !== "production") {
-    debugger;
+    debugFn();
   }
 
   throw new Error(errorMsg);
