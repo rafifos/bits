@@ -34,9 +34,10 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
+    "lefthook": "^1.11.8",
     "typescript": "^5.8.3"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["@biomejs/biome"]
+    "onlyBuiltDependencies": ["@biomejs/biome", "lefthook"]
   }
 }
