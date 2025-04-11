@@ -3,9 +3,6 @@
   "name": "@rafifos/bits",
   "version": "1.0.0",
   "description": "Bits and Bytes that aren't big enough to be their on library.",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "rafifos",
     "jsrepo",
@@ -31,7 +28,15 @@
     "npm": "please-use-pnpm",
     "yarn": "please-use-pnpm"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "biome check --write"
+  },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "typescript": "^5.8.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["@biomejs/biome"]
   }
 }
