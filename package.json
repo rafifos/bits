@@ -21,6 +21,7 @@
   "homepage": "https://github.com/rafifos/bits",
   "bugs": "https://github.com/rafifos/bits/issues",
   "repository": "rafifos/bits",
+  "type": "module",
   "packageManager": "pnpm@10.6.4",
   "engines": {
     "node": ">= 22",
