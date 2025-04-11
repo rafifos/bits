@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "name": "@rafifos/bits",
+  "version": "1.0.0",
+  "description": "Bits and Bytes that aren't big enough to be their on library.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rafifos",
+    "jsrepo",
+    "libraries",
+    "utils",
+    "trycatch",
+    "try",
+    "catch",
+    "error",
+    "error-handling",
+    "error-handling-library",
+    "error-handling-utils"
+  ],
+  "author": "Rafael Julio <development@rafifos.dev> (https://rafifos.dev)",
+  "license": "MIT",
+  "homepage": "https://github.com/rafifos/bits",
+  "bugs": "https://github.com/rafifos/bits/issues",
+  "repository": "rafifos/bits",
+  "packageManager": "pnpm@10.6.4",
+  "engines": {
+    "node": ">= 22",
+    "pnpm": ">= 3",
+    "npm": "please-use-pnpm",
+    "yarn": "please-use-pnpm"
+  }
+}
