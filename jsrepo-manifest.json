@@ -4,6 +4,19 @@
       "name": "utils",
       "blocks": [
         {
+          "name": "handle-async",
+          "directory": "src/utils",
+          "category": "utils",
+          "tests": true,
+          "subdirectory": false,
+          "list": true,
+          "files": ["handle-async.ts", "handle-async.test.ts"],
+          "localDependencies": [],
+          "_imports_": {},
+          "dependencies": [],
+          "devDependencies": []
+        },
+        {
           "name": "should-never-happen",
           "directory": "src/utils",
           "category": "utils",
