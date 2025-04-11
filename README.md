@@ -29,8 +29,8 @@ npx jsrepo add github/rafifos/bits/utils/handle-async
 
 ## Available Utilities
 
-- [handle-async](src/utils/handle-async.ts): A utility for handling async functions with proper error handling.
-- [should-never-happen](src/utils//should-never-happen.ts): A utility for handling cases that should never occur in your application flow.
+- [handle-async](https://github.com/rafifos/bits/blob/main/src/utils/handle-async.ts): A utility for handling async functions with proper error handling.
+- [should-never-happen](https://github.com/rafifos/bits/blob/main/src/utils//should-never-happen.ts): A utility for handling cases that should never occur in your application flow.
 
 ## Development
 
@@ -69,7 +69,7 @@ pnpm install
 
 ### Commit Guidelines
 
-This project uses [Conventional Commits](https://www.conventionalcommits.org/) for commit messages, enforced by commitlint.
+This project uses [Conventional Commits](https://www.conventionalcommits.org) for commit messages, enforced by commitlint.
 
 Examples:
 
@@ -89,4 +89,4 @@ This project uses GitHub Actions for continuous integration:
 
 ## License
 
-MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License - see the [LICENSE](https://github.com/rafifos/bits/blob/main/LICENSE) file for details.
