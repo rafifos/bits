@@ -29,11 +29,13 @@
     "yarn": "please-use-pnpm"
   },
   "scripts": {
+    "build": "jsrepo build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "biome check --write"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
+    "jsrepo": "^1.47.0",
     "lefthook": "^1.11.8",
     "typescript": "^5.8.3"
   },
