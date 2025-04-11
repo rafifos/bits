@@ -57,7 +57,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.head_ref }}
 
       - uses: pnpm/action-setup@v4
         name: Install pnpm
@@ -79,13 +79,8 @@ jobs:
       - name: Format manifest with Biome
         run: pnpm lint
 
-      - name: Configure Git
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-
-      - name: Commit manifest
-        run: |
-          git add jsrepo-manifest.json
-          git commit -m "chore: update jsrepo-manifest.json [skip ci]" || echo "No changes to commit"
-          git push
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update jsrepo-manifest.json"
+          commit_options: "--signoff"
+          file_pattern: "jsrepo-manifest.json"
