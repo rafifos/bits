@@ -1,3 +1,7 @@
 {
-  "recommendations": ["biomejs.biome", "me-dutour-mathieu.vscode-github-actions"]
+  "recommendations": [
+    "biomejs.biome",
+    "me-dutour-mathieu.vscode-github-actions",
+    "orta.vscode-jest"
+  ]
 }
