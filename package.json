@@ -41,7 +41,7 @@
     "@jest/globals": "^29.7.0",
     "@types/node": "^22",
     "jest": "^29.7.0",
-    "jsrepo": "^1.47.0",
+    "jsrepo": "^2.0.2",
     "lefthook": "^1.11.8",
     "ts-jest": "^29.3.1",
     "ts-node": "^10.9.2",
