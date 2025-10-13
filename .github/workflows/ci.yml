@@ -112,7 +112,7 @@ jobs:
       - name: Format manifest with Biome
         run: pnpm lint
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: update jsrepo-manifest.json"
           commit_options: "--signoff"
